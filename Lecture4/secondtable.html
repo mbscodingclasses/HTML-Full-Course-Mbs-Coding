@@ -6,24 +6,39 @@
     <title>Second Table</title>
   </head>
   <body>
+    <!-- Table starts here -->
     <table border="1">
-      <tr>
-        <td>Column 1</td>
-        <td>Column 2</td>
-        <td>Column 3</td>
-      </tr>
-      <tr>
-        <td rowspan="2">Row 1 Cell 1</td>
-        <td>Row 1 Cell 2</td>
-        <td>Row 1 Cell 3</td>
-      </tr>
-      <tr>
-        <td>Row 2 Cell 2</td>
-        <td>Row 2 Cell 3</td>
-      </tr>
-      <tr>
-        <td colspan="3">Row 3 Cell 1</td>
-      </tr>
+      <!-- Table header section -->
+      <thead>
+        <tr>
+          <!-- Header cells (Column titles) -->
+          <th>Column 1</th>
+          <th>Column 2</th>
+          <th>Column 3</th>
+        </tr>
+      </thead>
+      
+      <!-- Table body section -->
+      <tbody>
+        <!-- First row with rowspan for the first cell -->
+        <tr>
+          <td rowspan="2">Row 1 Cell 1</td> <!-- This cell spans 2 rows -->
+          <td>Row 1 Cell 2</td>
+          <td>Row 1 Cell 3</td>
+        </tr>
+        
+        <!-- Second row -->
+        <tr>
+          <td>Row 2 Cell 2</td>
+          <td>Row 2 Cell 3</td>
+        </tr>
+
+        <!-- Third row with colspan for the first cell -->
+        <tr>
+          <td colspan="3">Row 3 Cell 1</td> <!-- This cell spans all 3 columns -->
+        </tr>
+      </tbody>
     </table>
+    <!-- Table ends here -->
   </body>
 </html>

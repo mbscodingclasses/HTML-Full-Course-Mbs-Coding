@@ -6,46 +6,72 @@
     <title>Form Project 1</title>
   </head>
   <body>
+    <!-- Title of the form -->
     <h2>Event Registration</h2>
+
+    <!-- Form to collect user data -->
     <form action="">
+      <!-- Name field -->
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" />
+      <!-- Text input for name -->
       <br />
       <br />
+
+      <!-- Email field -->
       <label for="emailId">Email Id:</label>
       <input type="email" id="emailId" name="emailId" />
+      <!-- Email input for email address -->
       <br />
       <br />
+
+      <!-- Phone Number field -->
       <label for="phoneNumber">Phone No:</label>
       <input type="tel" id="phoneNumber" name="phoneNumber" />
+      <!-- Telephone input for phone number -->
       <br />
       <br />
+
+      <!-- Occupation field (dropdown list) -->
       <label for="occupationType">Occupation:</label>
       <select name="occupationType" id="occupationType">
         <option value="student">Student</option>
+        <!-- Option for student -->
         <option value="professional">Professional</option>
+        <!-- Option for professional -->
         <option value="others">Others</option>
+        <!-- Option for others -->
       </select>
       <br />
       <br />
+
+      <!-- Checkbox group for topics of interest -->
       <fieldset>
         <legend>Topics of Interest:</legend>
+        <!-- Grouping the checkboxes under a legend -->
 
+        <!-- Checkbox for HTML topic -->
         <input type="checkbox" name="checkbox" id="checkbox1" />
         <label for="checkbox1">HTML</label>
 
+        <!-- Checkbox for CSS topic -->
         <input type="checkbox" name="checkbox" id="checkbox2" />
         <label for="checkbox2">CSS</label>
 
+        <!-- Checkbox for JavaScript topic -->
         <input type="checkbox" name="checkbox" id="checkbox3" />
         <label for="checkbox3">JavaScript</label>
       </fieldset>
 
       <br />
+
+      <!-- Textarea for comments -->
       <label for="textarea1">Comments:</label>
       <br />
-      <textarea name="textarea1" id="textarea1" cols="30" rows="10"> </textarea>
+      <textarea name="textarea1" id="textarea1" cols="30" rows="10"></textarea>
+      <!-- Multi-line text input for comments -->
 
+      <!-- Submit button for form submission -->
       <input type="submit" value="Register" />
     </form>
   </body>

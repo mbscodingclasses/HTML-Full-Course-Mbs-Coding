@@ -6,45 +6,72 @@
     <title>Third Table</title>
   </head>
   <body>
+    <!-- Table to display details about company founders -->
     <table border="1">
+      <!-- Table header with column titles -->
       <thead>
-        <th>No.</th>
-        <th>Full Name</th>
-        <th>Position</th>
-        <th>Salary</th>
-        <th>Type</th>
+        <tr>
+          <th>No.</th>
+          <!-- Column for the number -->
+          <th>Full Name</th>
+          <!-- Column for the full name of the person -->
+          <th>Position</th>
+          <!-- Column for the position held by the person -->
+          <th>Salary</th>
+          <!-- Column for the salary of the person -->
+          <th>Type</th>
+          <!-- Column for the type of role (Company Founder) -->
+        </tr>
       </thead>
+
+      <!-- Table body containing data rows for each founder -->
       <tbody>
+        <!-- Row 1: Bill Gates data -->
         <tr>
           <td>1.</td>
+          <!-- Serial number for Bill Gates -->
           <td>Bill Gates</td>
+          <!-- Name of the person -->
           <td>Founder Microsoft</td>
+          <!-- Position held by the person -->
           <td>$1000</td>
+          <!-- Salary of the person -->
           <td rowspan="4">Company Founder</td>
+          <!-- "Company Founder" spans across all 4 rows -->
         </tr>
+
+        <!-- Row 2: Steve Jobs data -->
         <tr>
           <td>2.</td>
           <td>Steve Jobs</td>
           <td>Founder Apple</td>
           <td>$1200</td>
         </tr>
+
+        <!-- Row 3: Larry Page data -->
         <tr>
           <td>3.</td>
           <td>Larry Page</td>
           <td>Founder Google</td>
           <td>$1100</td>
         </tr>
+
+        <!-- Row 4: Mark Zuckerberg data -->
         <tr>
           <td>4.</td>
-          <td>Mark Jugerberg</td>
+          <td>Mark Zuckerberg</td>
           <td>Founder Facebook</td>
           <td>$1300</td>
         </tr>
       </tbody>
+
+      <!-- Table footer showing the total salary expense -->
       <tfoot>
         <tr>
           <td colspan="3">Total Expense:</td>
+          <!-- Total expense text spans across 3 columns -->
           <td>$4600</td>
+          <!-- The calculated total salary of all founders -->
         </tr>
       </tfoot>
     </table>

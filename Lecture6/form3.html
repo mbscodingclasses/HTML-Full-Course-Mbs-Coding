@@ -7,31 +7,39 @@
   </head>
   <body>
     <h2>Complex Form</h2>
+
+    <!-- Form begins -->
     <form action="">
+      <!-- Personal Information section -->
       <fieldset>
         <legend>Personal Information</legend>
 
+        <!-- Name input -->
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" />
         <br />
         <br />
+
+        <!-- Email input -->
         <label for="emailId">Email Id:</label>
         <input type="email" id="emailId" name="emailId" />
         <br />
         <br />
+
+        <!-- Phone Number input -->
         <label for="phoneNumber">Phone No:</label>
         <input type="tel" id="phoneNumber" name="phoneNumber" />
         <br />
         <br />
 
+        <!-- Date of Birth input -->
         <label for="dateOfBirth">Date Of Birth:</label>
         <input type="date" name="dateOfBirth" id="dateOfBirth" />
         <br />
         <br />
-        <!-- <p style="display: inline-block">Gender:</p> -->
 
+        <!-- Gender Radio Buttons -->
         <span>Gender:</span>
-
         <input type="radio" name="radio" id="radio1" />
         <label for="radio1">Male</label>
 
@@ -39,31 +47,42 @@
         <label for="radio2">Female</label>
         <br />
         <br />
+
+        <!-- Country Dropdown -->
         <label for="country">Country:</label>
         <select name="country" id="country">
           <option value="india">India</option>
           <option value="srilanka">Srilanka</option>
           <option value="us">United States</option>
           <option value="france">France</option>
-          <option value="jermany">Jermany</option>
+          <option value="germany">Germany</option>
+          <!-- Corrected the spelling of "Germany" -->
         </select>
       </fieldset>
 
+      <!-- Address section -->
       <fieldset>
         <legend>Address</legend>
 
+        <!-- Street input -->
         <label for="street">Street:</label>
         <input type="text" name="street" id="street" />
         <br />
         <br />
+
+        <!-- City input -->
         <label for="city">City:</label>
         <input type="text" name="city" id="city" />
         <br />
         <br />
+
+        <!-- State input -->
         <label for="states">States:</label>
         <input type="text" name="states" id="states" />
         <br />
         <br />
+
+        <!-- Zip Code input with maxlength and placeholder -->
         <label for="zipcode">Zip Code:</label>
         <input
           type="text"
@@ -74,17 +93,21 @@
         />
       </fieldset>
 
+      <!-- Other Information section -->
       <fieldset>
         <legend>Other Information</legend>
 
+        <!-- Comments textarea -->
         <label for="textarea">Comments:</label>
         <br />
         <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
 
+        <!-- Terms of Service checkbox -->
         <label for="terms">I agree to the terms of Service:</label>
         <input type="checkbox" name="terms" id="terms" />
       </fieldset>
 
+      <!-- Submit button -->
       <input type="submit" value="Submit" />
     </form>
   </body>

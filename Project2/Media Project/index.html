@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags for character encoding and viewport settings -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Media Project In Html</title>
   </head>
   <body>
+    <!-- Header Section -->
     <header>
       <h1>Welcome to Mbs Coding</h1>
     </header>
 
+    <!-- Navigation and Profile Section -->
     <table>
       <tr>
         <td>
+          <!-- Profile Image -->
           <img
             src="Images/Profile.jpg"
             alt="MbsCodingProfileImage"
@@ -21,35 +25,52 @@
           />
         </td>
         <td>
+          <!-- Navigation Links -->
           <nav>
             <ul>
-              <li><a href="#fullStackSection">Web Dev Videos</a></li>
-              <li><a href="#fullStackSection">Dsa Videos</a></li>
-              <li><a href="#fullStackSection">Project Videos</a></li>
-              <li><a href="#fullStackSection">Full Stack Mastery Videos</a></li>
+              <li><a href="#webDevVideosSection">Web Dev Videos</a></li>
+              <li><a href="#dsaVideosSection">Dsa Videos</a></li>
+              <li><a href="#projectVideosSection">Project Videos</a></li>
+              <li>
+                <a href="#fullStackMasterySection">Full Stack Mastery Videos</a>
+              </li>
             </ul>
           </nav>
         </td>
       </tr>
     </table>
 
+    <!-- Main Content Section -->
     <main>
-      <section>
+      <!-- About Section: Description of Mbs Coding -->
+      <section id="aboutSection">
         <h2>About Mbs Coding</h2>
         <p>
-          Mbs Coding Providing Full Stack Mastery Course For Absolute Beginners
-          For Free On Mbs Coding Youtube Channel.
+          Mbs Coding provides a comprehensive Full Stack Mastery course for
+          absolute beginners, completely free, on our Mbs Coding YouTube
+          channel. Our content covers the essential technologies needed to build
+          and scale full-stack applications, empowering individuals to begin
+          their programming journey and make a career out of it.
+        </p>
+        <p>
+          Our tutorials are beginner-friendly and cover various aspects of web
+          development, including frontend and backend technologies. Whether
+          you're new to programming or looking to level up your skills, Mbs
+          Coding is here to help you every step of the way.
         </p>
       </section>
 
-      <section>
+      <!-- Media Section: Audio and Video Content -->
+      <section id="mediaSection">
         <h2>Additional Media</h2>
-
+        <!-- Table with audio and video elements -->
         <table>
           <tr>
+            <!-- Audio Player -->
             <td>
-              <audio src="Audios/audio.mp3"  controls></audio>
+              <audio src="Audios/audio.mp3" controls></audio>
             </td>
+            <!-- Video Player -->
             <td>
               <video
                 src="Videos/video.mp4"
@@ -63,18 +84,26 @@
         </table>
       </section>
 
-      <section id="fullStackSection">
+      <!-- Full Stack Mastery Videos Section -->
+      <section id="fullStackMasterySection">
         <h2>Full Stack Mastery Videos</h2>
+        <p>
+          Watch our carefully curated Full Stack Mastery tutorials that will
+          take you from beginner to proficient full-stack developer. Our
+          step-by-step videos cover key concepts and hands-on projects that are
+          perfect for building real-world skills.
+        </p>
 
-        <!-- table>(tr>td*3)*2  -->
+        <!-- YouTube Embedded Videos -->
         <table>
           <tr>
+            <!-- First Row of Videos -->
             <td>
               <iframe
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/ux1zPLj0HW8?si=RQv-9WPmJFiZL34M"
-                title="YouTube video player"
+                title="Full Stack Mastery Tutorial 1"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
@@ -86,7 +115,7 @@
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/ux1zPLj0HW8?si=RQv-9WPmJFiZL34M"
-                title="YouTube video player"
+                title="Full Stack Mastery Tutorial 2"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
@@ -98,7 +127,7 @@
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/ux1zPLj0HW8?si=RQv-9WPmJFiZL34M"
-                title="YouTube video player"
+                title="Full Stack Mastery Tutorial 3"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
@@ -107,12 +136,13 @@
             </td>
           </tr>
           <tr>
+            <!-- Second Row of Videos -->
             <td>
               <iframe
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/ux1zPLj0HW8?si=RQv-9WPmJFiZL34M"
-                title="YouTube video player"
+                title="Full Stack Mastery Tutorial 4"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
@@ -124,7 +154,7 @@
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/ux1zPLj0HW8?si=RQv-9WPmJFiZL34M"
-                title="YouTube video player"
+                title="Full Stack Mastery Tutorial 5"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
@@ -136,7 +166,7 @@
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/ux1zPLj0HW8?si=RQv-9WPmJFiZL34M"
-                title="YouTube video player"
+                title="Full Stack Mastery Tutorial 6"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
@@ -148,6 +178,9 @@
       </section>
     </main>
 
-    <footer>&copy; 2025 MbsCoding All Rights Reserved</footer>
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2025 MbsCoding All Rights Reserved</p>
+    </footer>
   </body>
 </html>
